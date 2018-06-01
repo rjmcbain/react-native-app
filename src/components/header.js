@@ -1,6 +1,6 @@
 // Import libraries for making a component
 import React from "react";
-import ReactNative from "react-native";
+import { Text } from "react-native";
 
 // Make a component
 const Header = () => {
@@ -8,3 +8,4 @@ const Header = () => {
 };
 
 // Make the component available to toher parts of the app
+export default Header;
